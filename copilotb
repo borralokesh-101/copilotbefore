@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <!-- Add your CSS stylesheets here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Electronic Store</h1>
+        <!-- Add navigation links (e.g., Home, Products, Contact) -->
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Product Catalog -->
+        <section id="product-catalog">
+            <!-- Display product cards with details (name, image, price) -->
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$99.99</p>
+            </div>
+            <!-- Repeat for other products -->
+        </section>
+
+        <!-- User Reviews -->
+        <section id="reviews">
+            <!-- Display user reviews and ratings -->
+            <div class="review">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Great product! Highly recommended."</p>
+            </div>
+            <!-- Repeat for other reviews -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Electronic Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript scripts here -->
+    <script src="app.js"></script>
+</body>
+</html>
